@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+## Desciprtion
+
+This is a simple application with an 'Add Note' feature that allows users to add notes. The notes are displayed in a grid layout, making it easy to view. Each note shows the date in the format 'Aug 31st 12:30 PM'. When a note is clicked, its details are shown in a modal. If the user clicks the delete button, a confirmation message pops up using JavaScript's global confirm() function to ensure the user wants to proceed with the deletion.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
