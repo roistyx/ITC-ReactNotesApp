@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  color: #333333;
+  padding: 0
+}
+
+.top-section {
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-size: 20px 20px;
+  background-image:  repeating-linear-gradient(0deg, #444cf7, #444cf7 1px, #e5e5f7 1px, #e5e5f7);
+}
+
+.headline-span {
+  font-size:2rem;
+  display: inline-block;
+  background-color: white;
+  font-family: 'Sono', sans-serif;
+  margin-bottom: 10px;
+  padding: 5px 15px;
+  color: black;
+  font-weight: 900;
+
+    
+}
+
+.checkbox {
+  height: 20px;
+  width: 20px;
+  }
+
+textarea {
+  font-size: 1.4rem;
+  height: 200px;
+  overflow: scroll;
+  resize: none;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+
+button {
+  font-family: 'Sono', sans-serif;
+  padding: 7px 15px;
+  margin: 5px;
+  width: 40px;
+  min-width: 100px;
+  font-weight: bold;
+}
+
+.main-content {
+  padding: 20px;
+  text-align: center;
+  margin:auto;
+  width: 40vw
+  
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group .input-control {
+  flex: 1 1 auto;
+  display: block;
+  margin-bottom: 10px;
+  margin-right: 8px;
+  padding: 10px;
+  margin-top: -4px;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+
+.flex-container {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border: 2px solid #CCCCCC;
+  max-width: 100vw;
+  margin: 0 auto;
+  height: 80vh;
+  display: flex;
+  flex-flow: row wrap; 
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow:scroll
+}
+
+.flex-row {
+  background-color: orange;
+  height: auto;
+  width: 31%;
+  min-height: 200px;
+  margin: 1%;
+  padding: 10px;
+  height: 300px;
+  overflow: scroll;
+  border: 1px solid gray;
+  border-radius: 8px;
+  }
+
+  .note-time {
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  .note-content {
+    border-top: 1px dashed gray;
+    padding: 17px;
+    font-size: 1.2rem
+  }
+
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 5%;
+    z-index: 1000
+
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .7);
+    /* background-color:#333333; */
+    z-index: 1000
+
+
+
+  }
+
+
