@@ -8,7 +8,7 @@ export default function Modal({ open, children, onClose, note }) {
 		<>
 			<div className="overlay"></div>
 			<div className="modal">
-				<button onClick={onClose}>X</button>
+				<button className="close-button" onClick={onClose}>X</button>
 				<div className="note-time">{note.date}</div>
 				<div className="note-time">{note.title}</div>
 				<div className="note-content">{note.name}</div>

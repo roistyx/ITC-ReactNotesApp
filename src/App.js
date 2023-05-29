@@ -59,7 +59,7 @@ function App() {
 						/>
 					</div>
 					<button onClick={handleAddNote} className="input-control">
-						Add me
+						Add me!
 					</button>
 				</div>
 			</div>

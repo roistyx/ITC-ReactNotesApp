@@ -22,6 +22,20 @@
 	);
 }
 
+.close-button {
+	display: inline-block;
+  padding: 5px;
+  background-color: #ccc;
+  color: black;
+  border: none;
+  border-radius: 40%;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+}
+.close-button:hover {
+	background-color: #969393;
+}
 .headline-span {
 	font-size: 2rem;
 	display: inline-block;
@@ -36,6 +50,7 @@
 .checkbox {
 	height: 20px;
 	width: 20px;
+  
 }
 
 textarea {
@@ -50,8 +65,7 @@ textarea {
 button {
 	font-family: "Sono", sans-serif;
 	padding: 3px 5px;
-	margin: 5px;
-
+	margin: 10px;
 	font-weight: bold;
 }
 
@@ -123,7 +137,8 @@ button {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	background-color: white;
-	padding: 5px;
+	border-radius: 5px;
+	padding: 5px 5px 15px 5px;
 	z-index: 1000;
 }
 
@@ -134,6 +149,5 @@ button {
 	bottom: 0;
 	left: 0;
 	background-color: rgba(0, 0, 0, 0.7);
-	/* background-color:#333333; */
 	z-index: 1000;
 }
