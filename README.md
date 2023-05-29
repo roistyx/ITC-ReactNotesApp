@@ -2,7 +2,7 @@
 
 ## Desciprtion
 
-This is a simple application with an 'Add Note' feature that allows users to add notes. The notes are displayed in a grid layout, making it easy to view. Each note shows the date in the format 'Aug 31st 12:30 PM'. When a note is clicked, its details are shown in a modal. If the user clicks the delete button, a confirmation message pops up using JavaScript's global confirm() function to ensure the user wants to proceed with the deletion.
+This application provides a simple 'Add Note' feature that enables users to add notes. The notes are presented in a grid layout for easy viewing. Each note includes the date in the format 'Aug 31st 12:30 PM'. Clicking on a note triggers a modal to display its details. To confirm deletion, the application uses the find() method to locate the note within the notes object, and upon clicking the delete button, the JavaScript global confirm() function prompts for confirmation. Additional JavaScript methods include a map() to display the notes.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
